@@ -67,7 +67,7 @@ export const WithdrawSingleTokenType: FC = (props: {
           publicKey,
           tokenAccountPool,
           publicKey,
-          poolMint
+          pool_mint
         );
       transaction.add(createATAInstruction);
     }
